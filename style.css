@@ -56,6 +56,14 @@ a:hover{
     padding: 80px;
     color: white;
 }
+.intro::before{
+    background-image: url(bob-esponja-clipart.png);
+    content:" ";
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+    width: 100px;
+}
 .explanation{
     background-color: var(--cor04);
     color: white;
