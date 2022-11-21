@@ -122,22 +122,16 @@ footer a:hover{
 .sidebar{
     background-image: linear-gradient(to bottom, #B000F5, #260036);
     color: var(--cor04);
-
     
 }
 .wrapper{
-    background-color: rgb(204, 201, 201);
+    background-color: rgb(253, 250, 250);
     border: solid rgba(0, 0, 0, 0.404);
     border-radius: 1px;
     padding: 80px 80px;
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.226);
     padding-bottom: 50px;
     columns: 2;
-    background-image: url(https://th.bing.com/th/id/R.c23559613bc8563e095163888769f44d?rik=G1voWp4fNZPB0A&pid=ImgRaw&r=0);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   
 }
 
 .sidebar h3{
@@ -192,9 +186,21 @@ footer a:hover{
         background-image: url(https://th.bing.com/th/id/OIP.hfQVAWYgW1f3uFSy-_qWywAAAA?pid=ImgDet&w=269&h=410&rs=1);
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
     }
     .wrapper h3{
         font-size: 1.2em;
+    }
+    .wrapper ul{
+        font-size: 1.2em;
+        background-color: rgba(54, 8, 54, 0.466);
+        color: white;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.151);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .wrapper a{
+        color: white;
     }
 }
 
@@ -227,8 +233,18 @@ footer a:hover{
         background-image: url(https://th.bing.com/th/id/R.b3591fade9f11468a1ff6cf01f81a125?rik=d%2bdzg8mx1Kfbsg&riu=http%3a%2f%2fresources.ipentec.com%2fdocument%2fimage%2fdesign-2d-draw-standing-poses-a-09&ehk=7UGIeNZjPwWVU14itam%2bC2v0bI4IXtyvrgLjIJI%2bq%2bs%3d&risl=&pid=ImgRaw&r=0);
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;
     }
-    .wrapper h3{
+    
+    .wrapper ul{
         font-size: 1.2em;
+        background-color: rgba(54, 8, 54, 0.466);
+        color: white;
+        box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.199);
+        border-radius: 5px;
+        padding: 10px;
+    }
+    .wrapper a{
+        color: white;
     }
 }
