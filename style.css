@@ -111,10 +111,13 @@ footer a{
     border: 2px solid #8200b54f;
     border-radius: 10px;
     padding: 10px 15px;
+    transition: .4s;
    
 }
 footer a:hover{
-   color: darkgray;
+    color: darkgray;
+    transform: scale(1.1);
+    transition: .4s;
 }
 .sidebar{
     background-image: linear-gradient(to bottom, #B000F5, #260036);
@@ -130,6 +133,10 @@ footer a:hover{
     box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.226);
     padding-bottom: 50px;
     columns: 2;
+    background-image: url(https://th.bing.com/th/id/R.c23559613bc8563e095163888769f44d?rik=G1voWp4fNZPB0A&pid=ImgRaw&r=0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
    
 }
 
@@ -148,4 +155,80 @@ footer a:hover{
 }
 .sidebar a:hover{
     color: rgb(146, 16, 16);
+}
+
+@media screen and (min-width: 300px) and (max-width: 500px){
+    h1, h2, h3{
+        font-size: 1em;
+    }
+    p{
+        font-size: 0.8em;
+    }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1em;
+        gap: 1rem;
+        margin: auto;
+    }
+    footer a{
+        transition: .4s;
+        min-width: 250px;
+        max-width: 50px;
+        margin: auto;
+       
+    }
+    footer a:hover{
+        transform: scale(1.1);
+        transition: .4s;
+    }
+
+    .wrapper {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        background-image: url(https://th.bing.com/th/id/OIP.hfQVAWYgW1f3uFSy-_qWywAAAA?pid=ImgDet&w=269&h=410&rs=1);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .wrapper h3{
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 900px){
+    h1, h2, h3{
+        font-size: 1.2em;
+    }
+    p{
+        font-size: 1em;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1em;
+        gap: 1rem;
+    }
+    footer a{
+        transition: .4s;
+       
+    }
+    footer a:hover{
+        transform: scale(1.03);
+        transition: .4s;
+    }
+    .wrapper {
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        background-image: url(https://th.bing.com/th/id/R.b3591fade9f11468a1ff6cf01f81a125?rik=d%2bdzg8mx1Kfbsg&riu=http%3a%2f%2fresources.ipentec.com%2fdocument%2fimage%2fdesign-2d-draw-standing-poses-a-09&ehk=7UGIeNZjPwWVU14itam%2bC2v0bI4IXtyvrgLjIJI%2bq%2bs%3d&risl=&pid=ImgRaw&r=0);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .wrapper h3{
+        font-size: 1.2em;
+    }
 }
