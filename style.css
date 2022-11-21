@@ -31,7 +31,7 @@ h2, h3{
     color: var(--cor01);
     font-family: var(--fonteprincipal);
     font-size: 1.8em;
-    text-align: left;
+    
 }
 p{
     font-family: var(--fontsegundaria);
@@ -45,24 +45,10 @@ a{
 a:hover{
     color:var(--cor04);
 }
-
-.page-wrapper{
-    padding: auto;
-    margin: auto;
-}
-
 .intro{
     background-image: linear-gradient(to bottom, #B000F5, #260036);
     padding: 80px;
     color: white;
-}
-.intro::before{
-    background-image: url(bob-esponja-clipart.png);
-    content:" ";
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 100px;
-    width: 100px;
 }
 .explanation{
     background-color: var(--cor04);
@@ -72,6 +58,10 @@ a:hover{
     align-items: center;
     flex-direction: center ;
     justify-content: center;
+}
+.explanation::after{
+    background-image: url(bob-esponja-clipart.png);
+    content: " ";
 }
 .participation{
     padding: 80px;
